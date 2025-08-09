@@ -1,8 +1,8 @@
-# 🚗 Bluetooth & Line-Following Autonomous Car
+#  Bluetooth & Line-Following Autonomous Car
 
 This project demonstrates a dual-mode smart car built using the **ATmega32** microcontroller. The car can operate in two modes:
 
-## 🔧 Modes of Operation
+##  Modes of Operation
 
 ### 1. Manual Mode (Bluetooth Controlled)
 - The car is controlled by the user via a **Bluetooth module (HC-05/06)** using UART communication.
@@ -19,7 +19,7 @@ This project demonstrates a dual-mode smart car built using the **ATmega32** mic
 - An **ultrasonic sensor** is used to avoid obstacles:
   - If an obstacle is detected within a certain range, the car stops.
 
-## ⚙️ Peripherals Used
+##  Peripherals Used
 
 - **Motors**: Controlled via PWM for speed and direction (Timer0 & Timer2)
 - **UART**: For Bluetooth communication
@@ -28,13 +28,13 @@ This project demonstrates a dual-mode smart car built using the **ATmega32** mic
 - **Ultrasonic Sensor (HC-SR04)**: For obstacle detection
 - **LCD**: Optional for debugging
 
-## 🧠 Features
+##  Features
 
 - Real-time mode switching between manual and autonomous.
 - Balanced motor speeds to overcome hardware inconsistencies.
 - Modular, clean driver architecture using layered MCAL and HAL.
 
-## 🛠️ Authors
+##  Authors
 
 - Amany Elsedawy  
 - Rofida Adham
