@@ -33,6 +33,10 @@ This project demonstrates a dual-mode smart car built using the **ATmega32** mic
 - Real-time mode switching between manual and autonomous.
 - Balanced motor speeds to overcome hardware inconsistencies.
 - Modular, clean driver architecture using layered MCAL and HAL.
+- ## IMAGE OF Project
+- <p align="center">
+  <img src="RC_CAR.jpg" width="300"/>
+</p>
 
 ##  Authors
 
